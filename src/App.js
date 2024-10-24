@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainPage from "./MainPage";
 import { JongHun } from "./JongHun/JongHun";
 import { HyuckJin } from "./HyuckJin/HyuckJin";
+import Jinhan from "./Jinhan/Jinhan";
 import "./App.css";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
           <Route path="/" element={<MainPage />} />
           <Route path="JongHun" element={<JongHun />} />
           <Route path="HyuckJin" element={<HyuckJin />} />
+          <Route path="Jinhan" element={<Jinhan />} />
         </Routes>
       </div>
     </BrowserRouter>

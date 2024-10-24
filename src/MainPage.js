@@ -19,10 +19,9 @@ function MainPage() {
           <h2>3팀</h2>
           <p>우리 팀을 소개합니다!</p>
           <p>
-            <strong>'ㅈ', 'ㅎ'</strong>으로 시작하는 단어를 생각해보세요.
           </p>
           <p>
-            <a href="#knowledge">클릭</a> 또는 스크롤 하여 지식을 넓히세요.
+            <a href="#knowledge">클릭</a> 또는 스크롤을 하세요.
           </p>
         </div>
         <img src={smileImg} id="smileimg" alt="돌탑위에 스마일 이미지가 올라가있음"/>
@@ -33,10 +32,13 @@ function MainPage() {
           <Link to="JongHun">
             <button className="intro-button">종훈</button>
           </Link>
+          <Link to='Jinhan'>
             <button className="intro-button">진한</button>
-          <Link to="HyuckJin">
+            </Link>
+            <Link to="HyuckJin">
             <button className="intro-button">혁진</button>
           </Link>
+          <button className="intro-button">예지</button>
         </div>
       </section>
 
@@ -44,7 +46,7 @@ function MainPage() {
         <p>
           3팀을 빛낸 인물들
           <br />
-          김두봉(병원), 김혁진, 박지흔(병원), 임예지(학교), 최종훈, 배진한
+          김두봉(병원), 김혁진, 박지흔(병원), 임예지, 최종훈, 배진한
         </p>
       </footer>
     </div>

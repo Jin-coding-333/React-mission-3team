@@ -1,11 +1,16 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import JinhanHeader from './JinhanHeader';
+import JinhanMain from './JinhanMain';
+import JinhanFooter from './JinhanFooter';
+
 
 function Jinhan() {
-  
+
   return (
     <div id='Jinhan'>
-      
+      <JinhanHeader />
+      <JinhanMain />
+      <JinhanFooter />
     </div>
   )
 }
