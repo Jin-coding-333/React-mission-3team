@@ -1,4 +1,4 @@
-import t1 from "t1.jpg"
+import t1 from "./t1.jpg"
 
 export function Hobby() {
     return(
