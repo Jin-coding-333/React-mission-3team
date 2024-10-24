@@ -9,7 +9,7 @@ function MainPage() {
     <div className="main-page">
       <header className="header">
         <div className="headerBox">
-          <img src={homeImage} className="home-icon" />
+          <img src={homeImage} className="home-icon" alt="스마일 이미지" />
           <div id="text">아이엠 그라운드</div>
         </div>
       </header>
@@ -25,7 +25,7 @@ function MainPage() {
             <a href="#knowledge">클릭</a> 또는 스크롤 하여 지식을 넓히세요.
           </p>
         </div>
-        <img src={smileImg} id="smileimg" />
+        <img src={smileImg} id="smileimg" alt="돌탑위에 스마일 이미지가 올라가있음"/>
       </section>
 
       <section className="main-buttons" id="knowledge">
@@ -33,7 +33,10 @@ function MainPage() {
           <Link to="JongHun">
             <button className="intro-button">종훈</button>
           </Link>
-          <button className="intro-button">진한</button>
+            <button className="intro-button">진한</button>
+          <Link to="HyuckJin">
+            <button className="intro-button">혁진</button>
+          </Link>
         </div>
       </section>
 
@@ -41,7 +44,7 @@ function MainPage() {
         <p>
           3팀을 빛낸 인물들
           <br />
-          김두봉(병원), 김혁진(병원), 박지흔(병원), 임예지(학교), 최종훈, 배진한
+          김두봉(병원), 김혁진, 박지흔(병원), 임예지(학교), 최종훈, 배진한
         </p>
       </footer>
     </div>

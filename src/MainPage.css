@@ -69,22 +69,21 @@
 }
 
 .intro-button {
-  background-color: #ffcc80;
+  background-color: #ffe5b4;
+  color: black;
   border: none;
-  padding: 20px 40px;
-  font-size: 5.2rem;
-  margin: 0 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 40px 60px;
+  font-size: 2rem;
+  border-radius: 12px;
+  text-align: center;
   cursor: pointer;
-  transition: background-color 0.3s;
-  width: 439px;
-  height: 395px;
-  filter: drop-shadow(0 0 0.55rem rgba(0, 0, 0, 15%));
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 0 15px #ff9933, 0 0 30px #ff9933, 0 0 45px #ff9933, 0 0 60px #ff9933;
 }
 
 .intro-button:hover {
-  background-color: #ffb74d;
+  box-shadow: 0 0 25px #00ff00, 0 0 50px #00ff00, 0 0 75px #00ff00, 0 0 100px #00ff00;
+  transform: scale(1.05);
 }
 
 .footer {
