@@ -1,8 +1,9 @@
 import { SelfMyIntroName } from "./JongHunName";
 import { SelfMyIntro } from "./JongHunIntro";
 import { SelfMyIntroBody } from "./JongHunIntro2";
+import { UseGetApi } from "./UseGetApi";
 
-function JongHun() {
+export function JongHun() {
   return (
     <div>
       <SelfMyIntroName />
