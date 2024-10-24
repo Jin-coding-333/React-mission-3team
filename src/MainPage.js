@@ -38,7 +38,9 @@ function MainPage() {
             <Link to="HyuckJin">
             <button className="intro-button">혁진</button>
           </Link>
+          <Link to="Yeji">
           <button className="intro-button">예지</button>
+          </Link>
         </div>
       </section>
 
