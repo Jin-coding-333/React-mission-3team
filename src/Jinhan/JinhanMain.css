@@ -8,3 +8,53 @@ main{
   width: 700px;
   height: 500px;
 }
+
+.mainContent {
+  padding: 20px;
+  font-family: Pretendard, sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+.chatSection {
+  margin-top: 40px;
+}
+
+.inputArea {
+  width: 100%;
+  font-size: 1.2em;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.sendButton {
+  font-size: 1.5em;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.sendButton:disabled {
+  background-color: #ccc;
+}
+
+.responseArea {
+  margin-top: 20px;
+}
+
+.responseArea h3 {
+  font-size: 1.5em;
+}
+
+.responseArea p {
+  font-size: 1.2em;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  white-space: pre-wrap;
+}
