@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# 코드잇 풀스택 3기
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## React로 웹 사이트 만들기
 
-## Available Scripts
+### 3팀 자기소개 페이지 만들기
 
-In the project directory, you can run:
+#### 팀원
+- **김두봉** (팀장)
+- **김혁진**
+- **박지흔**
+- **임예지**
+- **최종훈**
+- **배진한**
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# React 팀 협업 과제
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 자기 소개 페이지를 React로 만들어봅시다!
 
-### `npm test`
+1. **팀장님이 Github에 각각의 팀원들을 초대합니다.**
+2. **팀장님이 React를 셋팅하고, Github에 올리고, 팀원들은 clone 받습니다.**
+3. **/main 경로엔 각 팀원들의 자기 소개로 라우팅되는 메인 페이지가 있어야합니다.**
+4. **팀원 각각의 자기 소개 페이지 등 폴더 구조는 어떻게 구성할 지 팀원들 간 협의합니다.**
+5. **내 소개 페이지에는, 내 소개, 지금까지 나의 발전, 소감 등 및 각 팀원들의 첫인상을 포함해야 합니다.**
+    - 소개 페이지는 영역별로 나눠서, 최소한 3개 이상의 컴포넌트를 조합해 만듭니다.
+    - 아무거나 1개 이상의 오픈 API를 활용해서, 데이터만 간단하게 표시되게 붙여봅니다. 만약 오픈 API를 이해하고 적용해서 붙이기가 어렵다면 기존에 코드잇에서 쓰던 걸 활용해서 넣어봅니다.
+    - “오픈 API, 공공 API, 공용 API, 재밌는 API” 등등 키워드로 검색하거나 해보세요!
+    
+        **단순 예시:**
+        - [기상청 데이터](https://data.kma.go.kr/api/selectApiList.do?pgmNo=42)
+        - [Picsum Photos](https://picsum.photos/)
+        - [문화재청](https://www.culture.go.kr/data/openapi/openapiView.do?id=609&category=F&gubun=A#/)
+        - [V-World API](https://www.vworld.kr/dev/v4api.do)
+        - [네이버 API](https://developers.naver.com/products/intro/plan/plan.md)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+6. **팀원들 간 같이 쓰는 공용 컴포넌트 혹은 공용 스타일을 만들어서 모두가 사용해봅니다. 이 과정에서 어떤 걸 공통으로 쓰면 좋을지 회의도 해봅니다.**
+    - **button, 색깔 등 무엇이든 좋습니다.**
+7. **github에 본인이 작성한 자기 소개 파일을 모두 올립니다. 이 과정에서 git flow는 반드시 지키지 않아도 되며, 팀원들 간 부딪쳐봅니다.**
+8. **모든 소개가 끝나면 build한 이후 팀장님이 Netlify에 build된 파일을 올려서 배포하고, 링크를 강사님에게 공유합니다.**
+    - 배포가 어렵다면, local에서 돌리고 확인만 시켜주셔도 됩니다.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+제일 잘 만든 팀은 보상이 있습니다.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **파트1 우승팀 4팀^^**
